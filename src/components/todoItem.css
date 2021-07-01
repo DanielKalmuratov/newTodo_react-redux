@@ -1,0 +1,19 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: white;
+  margin: 6px 4px;
+  height: 40px;
+  border-radius: 12px;
+}
+.todoItem > p {
+  float: 1;
+}
+.todoItem--done {
+  text-decoration: line-through;
+}
+.delete__button {
+  position: absolute;
+  left: 60%;
+}
